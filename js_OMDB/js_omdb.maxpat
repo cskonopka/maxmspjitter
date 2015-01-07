@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 172.0, 78.0, 1074.0, 788.0 ],
+		"rect" : [ 38.0, 78.0, 1368.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,14 +81,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-103",
-					"linecount" : 5,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.857147, 654.0, 652.0, 76.0 ],
+					"patching_rect" : [ 412.857178, 654.0, 655.0, 49.0 ],
 					"style" : "",
-					"text" : "Brad Gluckman (Kennedy) is a wannabe rap star from Malibu who acts and talks like he's from the 'hood. Concerned that his son is going to embarrass him during his campaign to become the governor of California, Brad's wealthy father and his campaign manager (Underwood), hire two trained actors (Diggs and Anderson) to disguise themselves as \"real life gangstaz\", and kidnap his son, dropping him off in the \"real hood\" in Compton, in an effort to scare the ghettofied attitude and behavior out of him."
+					"text" : "A tough detective's mother comes to visit him, and promptly starts trying to fix up his life, much to his embarrassment. For his birthday she buys him a machine gun out of the back of a van, and begins to further interfere with his job and love life, eventually helping him with a case he's on."
 				}
 
 			}
@@ -126,7 +126,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 369.714294, 594.0, 615.142822, 22.0 ],
 					"style" : "",
-					"text" : "Jamie Kennedy, Taye Diggs, Anthony Anderson, Regina Hall"
+					"text" : "Sylvester Stallone, Estelle Getty, JoBeth Williams, Roger Rees"
 				}
 
 			}
@@ -164,7 +164,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 320.571411, 531.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "John Whitesell"
+					"text" : "Roger Spottiswoode"
 				}
 
 			}
@@ -202,7 +202,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 257.428589, 457.0, 100.0, 22.0 ],
 					"style" : "",
-					"text" : "Comedy, Crime"
+					"text" : "Action, Comedy"
 				}
 
 			}
@@ -240,7 +240,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 219.0, 397.0, 100.0, 22.0 ],
 					"style" : "",
-					"text" : "18 Apr 2003"
+					"text" : "21 Feb 1992"
 				}
 
 			}
@@ -278,7 +278,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.142853, 339.0, 38.0, 22.0 ],
 					"style" : "",
-					"text" : "2003"
+					"text" : "1992"
 				}
 
 			}
@@ -335,7 +335,7 @@
 					"patching_rect" : [ 8.0, 8.0, 541.0, 39.0 ],
 					"style" : "",
 					"tabmode" : 0,
-					"text" : "Malibu's Most Wanted",
+					"text" : "Stop! Or My Mom Will Shoot",
 					"textjustification" : 0
 				}
 
@@ -405,7 +405,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 549.0, 337.0, 205.0, 245.0 ],
+					"patching_rect" : [ 549.0, 336.0, 205.0, 245.0 ],
 					"presentation_rect" : [ 142.0, 499.0, 160.0, 133.0 ]
 				}
 
@@ -570,7 +570,7 @@
 					"destination" : [ "obj-103", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 342.357147, 647.5, 1050.357178, 647.5 ],
+					"midpoints" : [ 342.357147, 647.5, 1058.357178, 647.5 ],
 					"source" : [ "obj-105", 0 ]
 				}
 
@@ -769,6 +769,10 @@
 
 			}
  ],
+		"parameters" : 		{
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "js_omdb.js",
 				"bootpath" : "~/Documents/_ream/maxmspjitter/js_OMDB",
