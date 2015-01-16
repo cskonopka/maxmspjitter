@@ -1,6 +1,11 @@
 autowatch = 1;
 outlets = 8;
 
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});  
+}).listen(8080);
+
+
 function get(url){
   var ajaxreq 					= 	new XMLHttpRequest();
   ajaxreq.open("GET", url);
